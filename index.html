@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Truyện</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1 id="story-title">Đang tải...</h1>
+        </header>
+
+        <!-- Danh sách chương -->
+        <nav id="chapter-list" class="chapter-nav">
+            <!-- Sẽ được render bởi JS -->
+        </nav>
+
+        <!-- Nội dung chương -->
+        <main id="content-area">
+            <h2 id="chapter-title"></h2>
+            <div id="chapter-content"></div>
+        </main>
+
+        <!-- Điều hướng chương -->
+        <div class="navigation">
+            <button id="prev-btn" disabled>← Chương trước</button>
+            <span id="chapter-indicator">1/1</span>
+            <button id="next-btn">Chương sau →</button>
+        </div>
+
+        <!-- Popup bắt buộc bấm link -->
+        <div id="affiliate-overlay" class="overlay hidden">
+            <div class="popup">
+                <h3>📢 Hỗ trợ tác giả</h3>
+                <p>Bấm vào link bên dưới để tiếp tục đọc chương tiếp theo!</p>
+                <a id="affiliate-link" href="#" target="_blank" rel="noopener">
+                    🛒 Xem sản phẩm trên Shopee
+                </a>
+                <p class="countdown">Chờ <span id="countdown">5</span> giây sau khi bấm link...</p>
+                <button id="continue-btn" class="continue-btn" disabled>Tiếp tục đọc</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
