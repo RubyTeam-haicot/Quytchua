@@ -2,4 +2,4 @@
 đổi hình ảnh thì dùng theo lên hình ảnh đã lưu (Quytchua.png)
 đổi back ground trong css
 quytchua.js dòng 9 + 10 là kích cỡ của nhân vật
-# link truyện: [https://vuonquyt.github.io/quytchua/ ](https://rubyteam-haicot.github.io/Quytchua.github.io/)
+# link truyện: https://rubyteam-haicot.github.io/Quytchua.github.io/
