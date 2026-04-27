@@ -1,0 +1,15 @@
+{
+    "title": "Tên Truyện Của Bạn",
+    "chapters": [
+        {
+            "id": 1,
+            "title": "Chương 1: Tiêu đề",
+            "content": "<p>Nội dung chương 1...</p><p>Đoạn 2...</p>"
+        },
+        {
+            "id": 2,
+            "title": "Chương 2: Tiêu đề",
+            "content": "<p>Nội dung chương 2...</p>"
+        }
+    ]
+}
